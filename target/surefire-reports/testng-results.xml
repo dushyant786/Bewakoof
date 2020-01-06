@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bewakoof" duration-ms="33126" started-at="2020-01-04T01:10:28 IST" finished-at="2020-01-04T01:11:01 IST">
+    <groups>
+    </groups>
+    <test name="ProductToCart" duration-ms="33126" started-at="2020-01-04T01:10:28 IST" finished-at="2020-01-04T01:11:01 IST">
+      <class name="com.bewkoof.testCases.TC_ProductCartTest_002">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="launchBrowser" is-config="true" duration-ms="15318" started-at="2020-01-04T01:10:28 IST" description="Launch Browser" finished-at="2020-01-04T01:10:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginIntoBewakoof()[pri:0, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="loginIntoBewakoof" duration-ms="3636" started-at="2020-01-04T01:10:43 IST" finished-at="2020-01-04T01:10:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoBewakoof -->
+        <test-method status="PASS" signature="searchProduct()[pri:1, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="searchProduct" duration-ms="4800" started-at="2020-01-04T01:10:47 IST" finished-at="2020-01-04T01:10:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="productAddToCart()[pri:2, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="productAddToCart" duration-ms="5988" started-at="2020-01-04T01:10:51 IST" finished-at="2020-01-04T01:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAddToCart -->
+        <test-method status="PASS" signature="goToHome()[pri:3, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="goToHome" duration-ms="743" started-at="2020-01-04T01:10:57 IST" finished-at="2020-01-04T01:10:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHome -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:4, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="logoutFromApplication" duration-ms="1896" started-at="2020-01-04T01:10:58 IST" depends-on-methods="com.bewkoof.testCases.TC_ProductCartTest_002.loginIntoBewakoof" finished-at="2020-01-04T01:11:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.bewkoof.testCases.TC_ProductCartTest_002@482f8f11]" name="closeBrowser" is-config="true" duration-ms="692" started-at="2020-01-04T01:11:00 IST" description="Close Browser" finished-at="2020-01-04T01:11:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.bewkoof.testCases.TC_ProductCartTest_002 -->
+    </test> <!-- ProductToCart -->
+  </suite> <!-- Bewakoof -->
+</testng-results>

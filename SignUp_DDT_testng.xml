@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Bewakoof">
+
+<parameter name="MyBrowser" value="Chrome"></parameter>
+
+  <test thread-count="5" name="SignUp_DDT">
+  
+    <classes>
+      <class name="com.bewkoof.testCases.TC_SignUp_DDT_004"/>
+    </classes>
+    
+  </test> <!-- SignUp_DDT -->
+  
+</suite> <!-- Bewakoof -->

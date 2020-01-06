@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Bewakoof]">
+  <parameter name="MyBrowser" value="Chrome"/>
+  <test thread-count="5" name="SignUp_DDT(failed)">
+    <classes>
+      <class name="com.bewkoof.testCases.TC_SignUp_DDT_004">
+        <methods>
+          <include name="createAccountOnBewakoof" invocation-numbers="0 1 2"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.bewkoof.testCases.TC_SignUp_DDT_004 -->
+    </classes>
+  </test> <!-- SignUp_DDT(failed) -->
+</suite> <!-- Failed suite [Bewakoof] -->
